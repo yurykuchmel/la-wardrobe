@@ -1,0 +1,165 @@
+users:
+{
+	_id : 1,
+	first_name : "Yury",
+	last_name : "Kuchmel",
+	birtday : new Date("04/02/2013"),
+	sex : "Male",
+	country : "Belarus",
+	city : "Minsk",
+	email : "yury@gmail.com",
+	pwd : "pwd123",
+	description : "I am good player",
+	wardrobes : [
+		{
+			_id : 1,
+			title : "First wardrobe",
+			components : [
+				{
+					_id : 1,
+					type : "blade",
+					brand : "Tibhar",
+					photo : "",
+					shop : "",
+					web_shop : ""
+					comments : [
+						{
+							_id : 1,
+							user_id : 1111,
+							text : "Cool",
+							update : new Date("01/04/2013")
+						},
+						{
+							_id : 2,
+							user_id : 1141,
+							text : "Great choice!",
+							update : new Date("02/04/2013")
+						}
+					],
+					likes : [
+						user_id : 11,
+						user_id : 12
+					]
+				},
+				{
+					_id : 2,
+					type : "rubber",
+					brand : "Tibhar",
+					photo : "",
+					shop : "",
+					web_shop : ""
+					comments : [
+						{
+							_id : 3,
+							user_id : 2,
+							text : "Nice",
+							update : new Date("01/04/2013")
+						},
+						{
+							_id : 4,
+							user_id : 1,
+							text : "Great selection!",
+							update : new Date("02/04/2013")
+						}
+					],
+					likes : [
+						user_id : 1,
+						user_id : 2
+					]
+				},
+			],
+			comments : [
+				{
+					_id : 5,
+					user_id : 1111,
+					text : "Nice",
+					update : new Date("01/04/2013")
+				},
+				{
+					_id : 6,
+					user_id : 1141,
+					text : "Great selection!",
+					update : new Date("02/04/2013")
+				}
+			],
+			likes : [
+				user_id : 1,
+				user_id : 2
+			],
+			followers : [],
+			following : []
+		}
+	],
+	outfits : [
+		{
+			_id : 1,
+			title : "First racket",
+			description : "I won smth",
+			components : [
+				{
+					wardrobe_id : 1,
+					component_id : 1
+				}, 
+				{
+					wardrobe_id : 1,
+					component_id : 2
+				}
+			],
+			comments : [
+				{
+					_id : 7,
+					user_id : 1,
+					text : "Great selection!",
+					update : new Date("02/04/2013")
+				}, 
+				{
+					_id : 8,
+					user_id : 2,
+					text : "Great selection!",
+					update : new Date("02/04/2013")
+				}
+			],
+			likes : [
+				user_id : 1,
+				user_id : 2
+			]
+		},
+		{
+			_id : 2,
+			title : "Second racket",
+			description : "I won smth",
+			components : [
+				{
+					wardrobe_id : 1,
+					component_id : 2
+				}, 
+				{
+					wardrobe_id : 1,
+					component_id : 2
+				}
+			],
+			comments : [
+				{
+					_id : 9,
+					user_id : 1,
+					text : "Great selection!",
+					update : new Date("02/04/2013")
+				}, 
+				{
+					_id : 10,
+					user_id : 2,
+					text : "Great selection!",
+					update : new Date("02/04/2013")
+				}
+			],
+			likes : [
+				user_id : 1,
+				user_id : 2
+			]
+		}
+	],
+	followers : [],
+	following : [],
+	comments : [],
+	likes : []
+}
