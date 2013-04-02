@@ -9,7 +9,7 @@ users:
 	city : "Minsk",
 	email : "yury@gmail.com",
 	pwd : "pwd123",
-	description : "I am good player",
+	description : "I am good guy",
 	wardrobes : [
 		{
 			_id : 1,
